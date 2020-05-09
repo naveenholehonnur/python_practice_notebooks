@@ -40,11 +40,3 @@ print((str(carry)+op).lstrip('0'))
 
 array=list(map(int,input('enter array').strip(' []').split(',')))
 print(*[i for i in set(array) if array.count(i)==1])
-
-
-# Question-3
-
-
-
-
-
