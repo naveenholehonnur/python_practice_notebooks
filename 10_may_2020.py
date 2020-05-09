@@ -1,11 +1,11 @@
-Given two binary strings return their sum (in binary). Input strings are not non empty and contains onlu characters 1 or 0.
-Input: a='11',b='1'
-Output: "100"
+# Given two binary strings return their sum (in binary). Input strings are not non empty and contains onlu characters 1 or 0.
+# Input: a='11',b='1'
+# Output: "100"
 
-Input: a='1010' b='1011'
-Output: "10101"
+# Input: a='1010' b='1011'
+# Output: "10101"
 
-Solution :--
+# Solution :--
     
 a=input()
 b=input()
