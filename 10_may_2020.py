@@ -1,3 +1,12 @@
+Given two binary strings return their sum (in binary). Input strings are not non empty and contains onlu characters 1 or 0.
+Input: a='11',b='1'
+Output: "100"
+
+Input: a='1010' b='1011'
+Output: "10101"
+
+Solution :--
+    
 a=input()
 b=input()
 a_len,b_len=len(a),len(b)
