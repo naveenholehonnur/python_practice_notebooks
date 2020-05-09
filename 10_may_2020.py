@@ -1,3 +1,4 @@
+# Question-1
 # Given two binary strings return their sum (in binary). Input strings are not non empty and contains onlu characters 1 or 0.
 # Input: a='11',b='1'
 # Output: "100"
@@ -25,3 +26,25 @@ for i in zip(a[::-1],b[::-1]):
     if val>1:
         ex=1
 print((str(carry)+op).lstrip('0'))
+
+
+# Question-2
+
+# Given an array of integers. Find out the number which is repeated only once while the rest are repeated thrice in the array. Find that single one.
+
+# Input: [2,2,2,3].
+# Output: 3
+
+# Input: [0,1,0,99,1,0,1,]
+# Output: 99
+
+array=list(map(int,input('enter array').strip(' []').split(',')))
+print(*[i for i in set(array) if array.count(i)==1])
+
+
+# Question-3
+
+
+
+
+
