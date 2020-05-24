@@ -24,7 +24,7 @@ for i in zip(a[::-1],b[::-1]):
         op='1'+op
     carry=0
     if val>1:
-        ex=1
+        carry=1
 print((str(carry)+op).lstrip('0'))
 
 
